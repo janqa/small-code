@@ -18,7 +18,7 @@ public class Main {
             if (num.mod(TWO).equals(0))
                 num = num.divide(TWO);
             else if (num.equals(THREE))
-                num = num.min(ONE);
+                num = num.subtract(ONE);
             else if (num.toString().substring(num.bitCount() - 2).equals("11")) {
             } else
                 num = num.min(ONE);
