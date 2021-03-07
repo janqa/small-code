@@ -21,7 +21,7 @@ public class Main {
                 num = num.subtract(ONE);
             else if (num.toString().substring(num.bitCount() - 2).equals("11")) {
             } else
-                num = num.min(ONE);
+                num = num.subtract(ONE);
             moves += 1;
         }
         return moves;
