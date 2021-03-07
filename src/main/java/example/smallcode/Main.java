@@ -19,8 +19,9 @@ public class Main {
                 num = num.divide(TWO);
             else if (num.equals(THREE))
                 num = num.subtract(ONE);
-            else if (num.toString().substring(num.bitCount() - 2).equals("11")) {
-            } else
+            else if (num.toString().substring(num.bitCount() - 2).equals("11"))
+                num = num.add(ONE);
+            else
                 num = num.subtract(ONE);
             moves += 1;
         }
