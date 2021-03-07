@@ -8,7 +8,7 @@ public class Main {
     private static final BigInteger TWO = BigInteger.TWO;
 
     public static void main(String... args) {
-
+        System.out.println(solution(BigInteger.valueOf(12345678)));
     }
 
     public static Object solution(BigInteger n) {
