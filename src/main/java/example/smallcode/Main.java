@@ -14,7 +14,7 @@ public class Main {
     public static Object solution(BigInteger n) {
         var num = n;
         var moves = 0;
-        while (num.equals(ONE)) {
+        while (!num.equals(ONE)) {
             if (num.mod(TWO).equals(0))
                 num = num.divide(TWO);
             else if (num.equals(THREE))
