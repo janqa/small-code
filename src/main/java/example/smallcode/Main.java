@@ -15,7 +15,7 @@ public class Main {
         var num = n;
         var moves = 0;
         while (!num.equals(ONE)) {
-            if (num.mod(TWO).equals(0))
+            if (num.and(num.subtract(BigInteger.ONE)).equals(BigInteger.ZERO))
                 num = num.divide(TWO);
             else if (num.equals(THREE))
                 num = num.subtract(ONE);
