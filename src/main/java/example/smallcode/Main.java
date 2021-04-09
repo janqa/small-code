@@ -2,6 +2,9 @@ package example.smallcode;
 
 import java.math.BigInteger;
 
+/**
+ * @author Jan Bronnikau
+ */
 public class Main {
     private static final BigInteger THREE = BigInteger.valueOf(3);
     private static final BigInteger ONE = BigInteger.ONE;
